@@ -5,23 +5,23 @@
 	<meta name="vievport" content="width-device-width, initial-scale=1.0">
 	<title>Tesla Model S</title>	
 </head>
-<body>
+<body bgcolor="red">
 	<header class="header">
 		<div class="header__menu-bar">
-			<div class="header_logo">
 				<a href="" class="header_logo__link">
 					<img src="img/ico/tesla-wordmark-red.png" class="header_logo__img">
 				</a>
-			</div>
 		<nav class="header__nav">
-				<a href="#" class="header__nav-link">Model S</a>
-				<a href="#" class="header__nav-link">Model X</a>
-				<a href="#" class="header__nav-link">Model 3</a>
-				<a href="#" class="header__nav-link">Roadster</a>
-				<a href="#" class="header__nav-link">Energy</a>
-				<a href="#" class="header__nav-link">Магазин</a>
-				<a href="#" class="header__nav-link">Войти</a>
+			<a href="#" class="header__nav-link header__nav-link_active">Model S</a>
+			<a href="#" class="header__nav-link">Model X</a>
+			<a href="#" class="header__nav-link">Model 3</a>
+			<a href="#" class="header__nav-link">Roadster</a>
+			<a href="#" class="header__nav-link">Energy</a>
 		</nav>
+		<div class="header__auth">
+			<a href="#" class="header__nav-link">Магазин</a>
+			<a href="#" class="header__nav-link">Войти</a>
+		</div>
 			<div class="header__hamburger-menu">
 			</div>
 		</div>
@@ -39,12 +39,15 @@
 						<div class="intro__feature">
 							<div class="intro__speedometr">
 								<img src="img/ico/speed.png">
+								<p>2.7 сек <span>0-100 км/час</span></p>
 							</div>
 							<div class="intro__road">
 								<img src="img/ico/road.png">
+								<p>632 км <span>запас хода</span></p>
 							</div>
 							<div class="intro__steering-wheel">
 								<img src="img/ico/steering-wheel.png">
+								<p>тест драйв</p>
 							</div>
 							<div class="intro__form-button">
 								<form>
@@ -54,45 +57,47 @@
 						</div>
 		</section>
 		<section class="future-drive">
-			<div>
+			<div class="future-drive__bg-img">
 				<h2 class="future-drive__title-first">Model S</h2>
 			</div>
+		<div class="future-drive__info">
 			<div>
 				<h3 class="future-drive__title-second">Будущее вождения</h3>
 				<p class="future-drive__description">Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</p>
 			</div>
 			<div class="future-drive__display">
 				<img src="img/ico/display.png" class="future-drive__img-display">
-				<p class="future-drive__display-description">17 дюймов Большой дисплей</p>
+				<p class="future-drive__display-description"> <span class="future-drive__17">17</span> <span class="future-drive__inch">дюймов</span> Большой дисплей</p>
 			</div>
 			<div class="future-drive__wifi">
 				<img src="img/ico/wifi.png" class="future-drive__img-wifi">
-				<p class="future-drive__wifi-descripton">Беспроводное обновление ПО Повышенная функциональность</p>
+				<p class="future-drive__wifi-descripton"> <span class="future-drive__wireless">Беспроводное обновление ПО</span> Повышенная функциональность</p>
 			</div>
 			<div class="future-drive__bag">
 				<img src="img/ico/bag.png" class="future-drive__img-bag">
-				<p class="future-drive__bag-description">894 литра Объем грузового пространства</p>
+				<p class="future-drive__bag-description"> <span class="future-drive__894">894</span> <span class="future-drive__litr">литра</span> Объем грузового пространства</p>
 			</div>
 			<div class="future-drive__learn-more">
 				<div>
 					<img src="img/ico/i.png" class="future-drive__learn-more-img">
+					<p class="future-drive__learn-more-info">узнать больше</p>
 				</div>
-				<div>
-					<p class="future-drive__p-learn-more">узнать больше</p>
-				</div>
+					
 				<div class="future-driveform-button">
 					<form>
 						<button class="future-drive__button">заказать</button>
 					</form>
 				</div>
 			</div>
+		</div>
 		</section>
 		<section class="safety">
 			<div class="safety__description">
+				<div class="safety__description-text">
 				<h4>Самый безопасный автомобиль в мире</h4>
 				<p>Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
 				<p>Оценка защиты: </p>
-			</div>
+				</div>
 			<div class="safety__front">
 				<p class="safety__front-text">спереди</p>
 				<img src="img/ico/star.png" сlass="safety__front-star">
@@ -140,15 +145,14 @@
 			<div class="safety__learn-more">
 				<div>
 					<img src="img/ico/i.png" class="safety__learn-more-img">
-				</div>
-				<div>
-					<p class="safety__p-learn-more">узнать больше</p>
+					<p class="safety__learn-more-info	">узнать больше</p>
 				</div>
 				<div class="safety-driveform-button">
 					<form>
 						<button class="safety__button">заказать</button>
 					</form>
 				</div>
+			</div>
 			</div>
 			<div class="safety__illustration">
 				<div class="safety__illustration-bgimg">		
