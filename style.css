@@ -1,0 +1,477 @@
+body {
+	margin: 0 auto;
+	max-width: 1440px;
+
+}
+
+/*Начало стилей для header*/
+
+
+.header__menu-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 24px 60px 58px 42px;
+	font-family: 'Montserrat-SemiBold';
+
+}
+
+.header_logo__link {
+	margin: 0 200px 0 0;
+}
+
+.header__nav {
+	padding: 16px 0px;
+	display: flex;
+	flex-wrap: nowrap;	
+}
+
+.header__nav a {
+	text-decoration: none;
+}
+
+.header__nav-link_active {
+	color: #E51937;
+	padding-bottom: 6px;
+	border-bottom: solid 2px #E51937;
+	border-radius: 0px 0px 10px 10px / 0px 0px 2px 2px;
+}
+
+.header__nav-link-modelx, .header__nav-link-model3, .header__nav-link-roadster, .header__nav-link-energy {
+	color: #000000;
+}
+
+
+.header__nav-link-models {
+	margin-right: 63px;
+}
+
+.header__nav-link-modelx {
+	margin-right: 24px;
+}
+
+.header__nav-link-model3 {
+	margin-right: 44px;
+}
+
+.header__nav-link-roadster {
+	margin-right: 46px;
+}
+
+.header__nav-link-energy {
+	margin-right: 221px;
+}
+
+.header__auth a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.header__nav-link-shop {
+	margin-right: 30px;
+
+}
+
+.header__nav-link-entry {
+	margin-right: 30px;
+}
+
+.header__hamburger-menu {
+	width: 24px;
+	height: 15px;
+}
+
+/*Окончание стилей для header*/
+
+/*Начало стилей для intro*/
+
+.intro__title-subtitle {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.intro__title {
+	font-family: 'Montserrat-SemiBold';
+	font-size: 90px;
+	padding: 0;
+	margin: 0 0 9px 0;
+
+}
+
+.intro__subtitle {
+	font-family: 'Montserrat-Medium';
+	font-size: 15px;
+	padding: 0;
+	margin: 0 0 26px 0;
+	
+}
+
+.intro__car-img {
+	max-width: 100%;
+}
+
+.intro {
+	background-image: url(img/svg/Tesla-Wordmark-Red.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.intro__title-subtitle {
+	margin-bottom: 26px;
+}
+/*Блок 2,7сек 0-100км/ч */
+.intro__feature {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 0 37px 0;
+		
+}
+
+.intro__speedometr {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 81px;
+	width: 180px;
+	
+}
+
+.intro__speedometr img {
+	width: 46px;
+	height: 35px;
+	padding: 0 14px 0 0;
+	align-self: flex-end;
+	position: relative;
+	bottom: -8px;
+
+}
+
+
+.intro__speedometr .intro__numbers {
+	font-family: 'Montserrat-SemiBold';
+	font-size: 35px;
+	align-self: flex-end;
+	padding: 0 6px 0 0;
+	
+}
+
+.intro__speedometr .intro__units {
+	font-family: 'Montserrat-SemiBold';
+	font-size: 20px;
+	padding-bottom: 3px;
+	align-self: flex-end;
+	
+}
+
+.intro__speedometr .intro_data {
+	font-size: 12px;
+	font-family: 'Montserrat-Regular';
+	margin: 0 0 0 60px;
+	align-self: flex-start;
+	
+}
+
+
+/*Блок 632км запас хода*/
+
+
+
+.intro__road {
+	display: flex;
+	align-items: center;
+	margin: 0 105px 0 0;
+	width: 160px;
+	flex-wrap: wrap;
+}
+
+.intro__road img {
+	margin: 0 12px 0 0;
+	padding: 0;
+	
+	position: relative;
+	top: 15px;
+}
+
+.intro__road .intro__numbers {
+	font-family: 'Montserrat-SemiBold';
+	font-size: 35px;
+	margin: 0 7px 0 0;
+	
+}
+
+
+.intro__road .intro__units {
+	font-family: 'Montserrat-SemiBold';
+	font-size: 20px;
+	padding-top: 10px;
+	
+}
+
+.intro__road .intro_data {
+	font-size: 12px;
+	font-family: 'Montserrat-Regular';
+	margin: -10px 0 0 55px;
+	
+}
+
+/*Блок Тест Драйв*/
+
+
+.intro__steering-wheel {
+	display: flex;
+	align-items: center;
+	margin: 0 40px 0 0;
+}
+
+.intro__img-steerengred {
+	display: none;
+}
+
+.intro__steering-wheel img {
+	width: 22px;
+	height: 22px;
+	margin-right: 7px;
+}
+
+.intro__steering-wheel span {
+	font-family: 'Montserrat-Bold';
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+/*Кнопка ЗАКАЗАТЬ*/
+
+.intro__button {
+	box-sizing: border-box;
+	border: 2px solid #E51937;
+	width: 160px;
+	height: 40px;
+	text-align: center;
+	font-family: 'Montserrat-Bold';
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #E51937;
+	background-color: white;
+}
+
+/*Указатель*/
+
+.intro__daw {
+	display: flex;
+	justify-content: center;
+}
+
+/*Окончанияе стилей для intro*/
+
+/*Начало стилей для Ipod*/
+@media  (max-width: 822px) {
+	.header__nav {
+		display: none;
+	}
+
+	.header__auth .header__nav-link-shop, .header__auth .header__nav-link-entry {
+		display: none;
+	}
+
+	.header__hamburger-menu {
+		width: 35px;
+		height: 22px;
+	}
+
+	/**********************************************************************/
+
+	.intro {
+		width: 100%;
+	background-image: url(img/svg/Tesla-Wordmark-Red-Ipod.png);
+	background-repeat: no-repeat;
+	background-position: 0 8%;
+	background-size: 100%;
+}
+
+	.intro__feature {
+		max-width: 822px;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0 0 64px 0;
+	}
+
+	.intro__speedometr {
+		margin: 0px 68px 55px 100px;
+	}
+
+	.intro__road {
+		margin: 0px 100px 55px 0;
+	}
+
+	.intro__steering-wheel {
+		margin: 0 35px 0 0;
+	}
+
+	.intro__button {
+		margin: 0;
+	}
+
+/********************************************/
+
+	.intro__speedometr {
+	margin-right: 81px;
+	width: 200px;
+}
+
+	.intro__speedometr img {
+	width: 67px;
+	height: 50px;
+}
+
+
+.intro__speedometr .intro__numbers {
+	font-size: 50px;	
+}
+
+.intro__speedometr .intro__units {
+	font-size: 20px;
+}
+
+.intro__speedometr .intro_data {
+	margin: 0 0 0 80px;
+}
+/**************************************************************************/
+.intro__road {
+	width: 180px
+}
+
+.intro__road .intro__numbers {
+	font-size: 50px;
+}
+
+/**************/
+
+
+.intro__img-steerengblack {
+	display: none;
+}
+
+.intro__img-steerengred {
+	display: inline;
+}
+.intro__steering-wheel span {
+	color: #E51937;
+	font-size: 16px;
+}
+
+/******************/
+
+.intro__button {
+	width: 221px;
+	height: 55px;
+	font-size: 16px;
+	color: white;
+	background-color: #E51937;
+}
+
+}
+
+/*Окончание стилей для Ipod*/
+
+
+@media  (max-width: 442px) {
+
+
+	.header_logo__img {
+		width: 138px;
+		height: 42px;
+	}
+
+	.header_logo__link{
+		margin:0;
+	}
+
+	.header__hamburger-menu {
+		width: 24px;
+		height: 15px;
+	}
+
+	.intro__title {
+		font-size: 50px;
+	}
+
+	.intro__subtitle {
+		font-size: 10px;
+	}
+
+	.intro {
+		background-position: 0 10%;
+	}
+/**************************************/
+.intro__feature {
+	align-items: center;
+}
+
+.intro__speedometr {
+	margin: 0 41px 43px 0;
+	width: 130px;
+}
+
+	.intro__speedometr img {
+	width: 38px;
+	height: 28px;
+}
+
+.intro__speedometr .intro__numbers {
+	font-size: 27px;	
+}
+
+.intro__speedometr .intro__units {
+	font-size: 15px;
+}
+
+.intro__speedometr .intro_data {
+	font-size: 10px;
+	margin: 0 0 0 55px;
+}
+/******************************************/
+
+.intro__road {
+	margin: 0 0 43px 0;
+	width: 125px;
+}
+.intro__road img {
+	width: 30px;
+	height: 49px;
+	padding: 0px;
+	margin: 0 14px 0 0;
+}
+
+.intro__road .intro__numbers {
+	font-size: 27px;
+}
+
+.intro__road .intro__units {
+	font-size: 15px;
+}
+
+.intro__road .intro_data {
+	font-size: 10px;
+	margin: -5px 0 0 45px;
+}
+/**********************************************/
+
+.intro__steering-wheel{
+	margin: 0 25px 34px 36px;
+}
+
+.intro__steering-wheel span{
+	font-size: 13px;
+}
+
+.intro__img-steerengred {
+	width: 22px;
+	height: 22px;
+}
+
+.intro__button {
+	width: 160px;
+	height: 40px;
+	font-size: 13px;
+	margin: 0 36px 34px 0;

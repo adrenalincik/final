@@ -2,57 +2,63 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<meta name="vievport" content="width-device-width, initial-scale=1.0">
+	<meta name="vievport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="fonts.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Tesla Model S</title>	
 </head>
 <body>
 	<header class="header">
 		<div class="header__menu-bar">
-				<a href="" class="header_logo__link">
+				<a href="#" class="header_logo__link">
 					<img src="img/ico/tesla-wordmark-red.png" class="header_logo__img">
 				</a>
 		<nav class="header__nav">
-			<a href="#" class="header__nav-link header__nav-link_active">Model S</a>
-			<a href="#" class="header__nav-link">Model X</a>
-			<a href="#" class="header__nav-link">Model 3</a>
-			<a href="#" class="header__nav-link">Roadster</a>
-			<a href="#" class="header__nav-link">Energy</a>
+			<a href="#" class="header__nav-link-models header__nav-link_active">Model S</a>
+			<a href="#" class="header__nav-link-modelx">Model X</a>
+			<a href="#" class="header__nav-link-model3">Model 3</a>
+			<a href="#" class="header__nav-link-roadster">Roadster</a>
+			<a href="#" class="header__nav-link-energy">Energy</a>
 		</nav>
-		<div class="header__auth">
-			<a href="#" class="header__nav-link">Магазин</a>
-			<a href="#" class="header__nav-link">Войти</a>
-		</div>
-			<div class="header__hamburger-menu">
+			<div class="header__auth">
+				<a href="#" class="header__nav-link-shop">Магазин</a>
+				<a href="#" class="header__nav-link-entry">Войти</a>
+				<a> <img src="img/ico/burger.png" class="header__hamburger-menu"> </a>
 			</div>
 		</div>
 	</header>
 
 	<main class="main">
 		<section class="intro">
-			<div>
+			<div class="intro__title-subtitle">
 				<h1 class="intro__title">Model S</h1>
 				<p class="intro__subtitle">Добро пожаловать в будущее!</p>
+				<img src="img/svg/tesla-png.svg" class="intro__car-img">
 			</div>
-					<div class="intro__img">
-						<img src="img/svg/tesla-png.svg" class="intro_car-img">
+					<div class="intro__feature">
+						<div class="intro__speedometr">
+							<img src="img/ico/speed.png">
+							<span class="intro__numbers">2,7</span> 
+							<span class="intro__units">сек</span>
+							<span class="intro_data">0-100 км/час</span>
+						</div>	
+						<div class="intro__road">
+							<img src="img/ico/road.png">
+								<span class="intro__numbers">632</span> 
+								<span class="intro__units">км</span>
+								<span class="intro_data">запас хода</span>
+							</div>
+						<div class="intro__steering-wheel">
+							<img src="img/ico/steering-wheel.png" class="intro__img-steerengblack">
+							<img src="img/ico/VectorRED.png" class="intro__img-steerengred">
+							<span>тест драйв</span>
+						</div>
+						<div class="intro__form-button">
+							<button class="intro__button">заказать</button>
+						</div>
 					</div>
-						<div class="intro__feature">
-							<div class="intro__speedometr">
-								<img src="img/ico/speed.png">
-								<p>2.7 сек <span>0-100 км/час</span></p>
-							</div>
-							<div class="intro__road">
-								<img src="img/ico/road.png">
-								<p>632 км <span>запас хода</span></p>
-							</div>
-							<div class="intro__steering-wheel">
-								<img src="img/ico/steering-wheel.png">
-								<p>тест драйв</p>
-							</div>
-							<div class="intro__form-button">
-								<button class="intro__button">заказать</button>
-							</div>
+						<div class="intro__daw">
+							<img src="img/ico/daw.png">
 						</div>
 		</section>
 		<section class="future-drive">
